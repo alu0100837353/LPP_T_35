@@ -7,3 +7,8 @@ puts "Complejo 1: "
 puts c1.to_s
 puts "Complejo 2: " 
 puts c2.to_s
+
+#producto escalar 
+puts "Producto escalar:"
+puts '5x' + '('+ c1.to_s + ') = ' 
+puts c1*5
