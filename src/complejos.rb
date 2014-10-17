@@ -34,5 +34,10 @@ class Complejo
     
     end
     
+    #division
+    def /(other)
+        return Complejo.new(((@real*other.real)+(@imaginaria*other.imaginaria))/((other.real*other.real)+(other.imaginaria*other.imaginaria)),
+        (((@imaginaria*other.real)-(@real*other.imaginaria))/((other.real*other.real)+(other.imaginaria*other.imaginaria)))) 
+    end
     
 end
