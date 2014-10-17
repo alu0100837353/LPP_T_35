@@ -30,7 +30,7 @@ class Complejo
     def *(multiplicacion)
        
         return Complejo.new(@real*multiplicacion, @imaginaria*multiplicacion) if multiplicacion.is_a? Numeric
-        return Complejo.new((@real*multiplicacion.real)-(@imaginaria*multiplacacion.imaginaria),(@real*multiplicacion.imaginaria)+(@imaginaria*multiplicacion.real)) if multiplicacion.is_a? Complejo
+        return Complejo.new((@real*multiplicacion.real)-(@imaginaria*multiplicacion.imaginaria),(@real*multiplicacion.imaginaria)+(@imaginaria*multiplicacion.real)) if multiplicacion.is_a? Complejo
     
     end
     

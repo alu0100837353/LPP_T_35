@@ -17,3 +17,18 @@ puts c1*5
 puts "Division:"
 puts "Complejo 1 / Complejo 2 = "
 puts c1/c2
+
+#suma
+puts "Suma:"
+puts "Complejo 1 + Complejo 2 = "
+puts c1+c2
+
+#resta
+puts "Resta:"
+puts "Complejo 1 - Complejo 2 = "
+puts c1-c2
+
+#multiplicacion
+puts "Multiplicacion:"
+puts "Complejo 1 * Complejo 2 = "
+puts c1*c2
