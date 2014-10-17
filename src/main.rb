@@ -12,3 +12,8 @@ puts c2.to_s
 puts "Producto escalar:"
 puts '5x' + '('+ c1.to_s + ') = ' 
 puts c1*5
+
+#division 
+puts "Division:"
+puts "Complejo 1 / Complejo 2 = "
+puts c1/c2
